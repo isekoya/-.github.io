@@ -1,0 +1,283 @@
+@charset "UTF-8";
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  line-height: 1.5;
+  color:#000;
+  letter-spacing: 0.1rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 100%;
+}
+
+.header {
+  height: 64px;
+  font-size: 0.6rem;
+  color: #442611;
+  font-family: "Sigmar", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-content {
+  background-image: url(../images/sumahomain.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 546px;
+}
+
+.home-content-title {
+  font-family: "Sigmar", sans-serif;
+  font-size: 2.7rem;
+  color: #442611;
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+}
+
+.self-introduction {
+  text-align: center;
+  padding: 55px 0 85px;
+}
+
+.kohiyo {
+  width: 210px;
+}
+
+.hazimemasite {
+  margin-top: 15px;
+}
+
+.umarete {
+  margin-top: 20px;
+}
+
+.photo-shot {
+  padding: 0 20px 80px;
+  text-align: center;
+  background-color: #F9F5EF;
+}
+
+.heading {
+  font-size: 1.7rem;
+  padding: 50px 0 30px;
+  color: #442611;
+  font-family: "Sigmar", sans-serif;
+  text-align: center;
+}
+
+.siblings {
+  margin-bottom: 30px;
+}
+
+.siblings-text, .single-text {
+  background-color: #fff;
+  font-size: 0.875rem;
+  padding: 30px 0;
+  max-width: 490px;
+}
+
+.siblings-text {
+  margin: -5px auto 0;
+}
+
+.single-img {
+  max-width: 490px;
+}
+
+.siblings-text2, .siblings-text3, 
+.single-text2, .single-text3 {
+  margin-top: 15px;
+}
+
+.single {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 490px;
+}
+
+.single-text {
+  order: 2;
+}
+
+.familymember {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.member {
+  margin: 0 6% 25px;
+}
+
+.member-img {
+  width: 122px;
+}
+
+.member-name {
+  font-size: 1.125rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.member-gender {
+  font-size: 0.875rem;
+}
+
+.footer {
+  background-color: #644025;
+  color: #fff;
+  font-size: 0.75rem;
+  text-align: center;
+  padding: 15px 0;
+}
+
+/* パソコン向け */
+@media (min-width: 800px) {
+
+  .header {
+    height: 80px;
+    font-size: 0.8rem;
+  }
+
+  .home-content {
+    height: 388px;
+    background-image: url(../images/main.jpg);
+  }
+
+  .home-content-title {
+    font-size: 3.688rem;
+    align-items: center;
+    height: 100%;
+    padding-left: 50%;
+  }
+
+  .self-introduction {
+    padding: 65px 0 95px;
+  }
+
+  .umarete-br2 {
+    display: none;
+  }
+
+  .photo-shot {
+    padding: 0 0 100px;
+  }
+
+  .heading {
+    font-size: 2.188rem;
+  }
+
+  .siblings {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 65px;
+  }
+
+  .siblings-img, .single-img {
+    width: 490px;
+  }
+
+  .siblings-text, .single-text {
+    width: 490px;
+    height: 304px;
+    padding-top: 70px;
+    margin: 0;
+  }
+
+  .single {
+    flex-direction: row;
+    justify-content: center;
+    max-width: none;
+  }
+  
+  .single-img {
+    order: 2;
+  }
+
+  .family {
+    padding-top: 15px;
+  }
+
+  .familymember {
+    width: 726px;
+    margin: 0 auto 50px;
+  }
+
+  .member {
+    margin: 0 6% 50px;
+  }
+
+  .member-img {
+    width: 150px;
+  }
+}
+
+/* タブレット向け */
+@media (min-width: 740px) and (max-width: 799px) {
+  .header {
+    height: 80px;
+    font-size: 0.8rem;
+  }
+
+  .home-content {
+    height: 388px;
+    background-image: url(../images/main.jpg);
+  }
+
+  .home-content-title {
+    font-size: 3.688rem;
+    align-items: center;
+    height: 100%;
+    padding-left: 50%;
+  }
+
+  .self-introduction {
+    padding: 65px 0 95px;
+  }
+
+  .umarete-br2 {
+    display: none;
+  }
+
+  .photo-shot {
+    padding: 0 0 100px;
+  }
+
+  .heading {
+    font-size: 2.188rem;
+  }
+
+  .siblings {
+    margin-bottom: 65px;
+  }
+
+  .family {
+    padding-top: 15px;
+  }
+
+  .familymember {
+    width: 726px;
+    margin: 0 auto 50px;
+  }
+
+  .member {
+    margin: 0 6% 50px;
+  }
+
+  .member-img {
+    width: 150px;
+  }
+}
